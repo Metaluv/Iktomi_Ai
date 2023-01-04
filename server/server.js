@@ -7,7 +7,7 @@ dotenv.config()
 
 const configuration = new Configuration({
   organization: "org-KcoN1dzPfBkt8kiQVAIy3Mo1",
-  apiKey: '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',
+  apiKey: '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',
 });
 
 const openai = new OpenAIApi(configuration);
@@ -46,4 +46,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(5000, () => console.log('AI server started on http://localhost:5000'))
+app.listen(5000, () => console.log('AI server started on https://iktomi.onrender.com'))
